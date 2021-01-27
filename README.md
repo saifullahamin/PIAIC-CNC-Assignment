@@ -1,2 +1,0 @@
-# PIAIC-CNC-Assignment
- 
