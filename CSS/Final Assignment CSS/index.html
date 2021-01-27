@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panacloud</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="./images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./images/favicon-16x16.png">
+    <link rel="manifest" href="./images/site.webmanifest">
+    <link rel="stylesheet" href="./fontawesome/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<style>
+    .top-bar {
+        background-color: black;
+        /* height: 30px; */
+        padding-top: 7px;
+        padding-bottom: 7px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .social-media {
+        display: flex;
+        width: 200px;
+        padding-left: 30px;
+        justify-content: space-between;
+        line-height: initial;
+    }
+
+    .social-media-link {
+        /* box-sizing: content-box; */
+    }
+
+    .social-media-icon {
+        background-color: #444444;
+        width: fit-content;
+        border-radius: 20px;
+        transition: 0.5s ease-out;
+    }
+
+    .social-media-icon:hover {
+        background: none;
+    }
+
+    .callback-button {
+        background-color: #A2D84C;
+        border: none;
+        font-weight: 700;
+        font-family: "Lato", sans-serif;
+        padding: 5px;
+        padding-left: 16px;
+        padding-right: 16px;
+        border-radius: 4px;
+        transition: 0.5s ease-out;
+    }
+
+    .callback-button:hover {
+        opacity: 0.8;
+        cursor: pointer;
+    }
+
+    .callback-button:focus {
+        outline: none;
+    }
+
+    .contact-div {
+        margin-right: 30px;
+        width: 450px;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .contact-span {
+        margin: auto;
+    }
+
+    .phoneno {
+        color: white;
+        text-decoration: none;
+    }
+
+    .phoneno:hover {
+        color: white;
+    }
+
+    .logo {
+        width: 100px;
+    }
+
+    .menu-div {
+        padding-top: 3px;
+        width: 97%;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .menu-links {
+        display: flex;
+        justify-content: space-around;
+        width: 700px;
+    }
+
+    .menu-link {
+        text-decoration: none;
+        margin: auto;
+        color: black;
+        border-bottom: 2px solid white;
+        transition: 0.5s ease-out;
+        padding-bottom: 2px;
+    }
+
+    .menu-link:hover {
+        border-bottom: 2px solid #A2D84C;
+        color: black;
+    }
+
+    .background-img {
+        /* height: 700px;
+        width: 100px; */
+    }
+</style>
+
+<body style="margin: 0px; line-height: normal;">
+    <div class="top-bar">
+        <div class="social-media">
+            <a href="#" target="_blank" class="social-media-link">
+                <div class="social-media-icon" ;
+                    style="padding-bottom: 5px; padding-top: 5px; padding-left: 10px; padding-right: 10px;">
+                    <i class="fab fa-facebook-f" style="color: white;"></i>
+                </div>
+            </a>
+            <a href="#" target="_blank" class="social-media-link">
+                <div class="social-media-icon" ;
+                    style="padding-bottom: 5px; border-radius: 20px; padding-top: 5px; padding-left: 7px; padding-right: 7px;">
+                    <i class="fab fa-twitter" style="color: white;"></i>
+                </div>
+            </a>
+            <a href="#" target="_blank" class="social-media-link">
+                <div class="social-media-icon" ;
+                    style="padding-bottom: 5px; border-radius: 20px; padding-top: 5px; padding-left: 8px; padding-right: 8px;">
+                    <i class="fab fa-linkedin-in" style="color: white;"></i>
+                </div>
+            </a>
+            <a href="#" target="_blank" class="social-media-link">
+                <div class="social-media-icon" ;
+                    style="padding-bottom: 5px; border-radius: 20px; padding-top: 5px; padding-left: 5px; padding-right: 5px;">
+                    <i class="fab fa-google-plus-g" style="color: white;"></i>
+                </div>
+            </a>
+            <a href="#" target="_blank" class="social-media-link">
+                <div class="social-media-icon" ;
+                    style="padding-bottom: 5px; border-radius: 20px; padding-top: 5px; padding-left: 6px; padding-right: 6px;">
+                    <i class="fab fa-youtube" style="color: white;"></i>
+                </div>
+            </a>
+        </div>
+        <div class="contact-div">
+            <span class="contact-span">
+                <i class="fas fa-phone" style="color: #A2D84C;" class="phone"></i>
+                <a class="phoneno" href="tel:+92-6458395">&nbsp;+ 92-6458395</a>
+            </span>
+            <span class="contact-span">
+                <i class="fas fa-phone" style="color: #A2D84C;" class="phone"></i>
+                <a class="phoneno" href="tel:+92-8753899">&nbsp;+ 92-8753899</a>
+            </span>
+            <button class="callback-button">CALL ME BACK</button>
+        </div>
+    </div>
+    <div class="menu-div">
+        <div>
+            <img class="logo" src="./images/logo.png" alt="">
+        </div>
+        <div class="menu-links">
+
+            <a class="menu-link" href="#why-us">WHY US</a>
+            <a class="menu-link" href="#about">ABOUT</a>
+            <a class="menu-link" href="#services">SERVICES</a>
+            <a class="menu-link" href="#portfolio">PORTFOLIO</a>
+            <a class="menu-link" href="#process">PROCESS</a>
+            <a class="menu-link" href="#reviews">REVIEWS</a>
+            <a class="menu-link" href="#skills">OUR SKILLS</a>
+            <a class="menu-link" href="#contact">CONTACT US</a>
+
+        </div>
+    </div>
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"></li>
+            <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"></li>
+            <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="./images/background.jpg" width="1000px" height="600px" class="d-block w-100 background-img"
+                    alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>First slide label</h5>
+                    <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="./images/background.jpg" width="1000px" height="600px" class="d-block w-100 background-img"
+                    alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Second slide label</h5>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="./images/background.jpg" width="1000px" height="600px" class="d-block w-100 background-img"
+                    alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Third slide label</h5>
+                    <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                </div>
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </a>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
